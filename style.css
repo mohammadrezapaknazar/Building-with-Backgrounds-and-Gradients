@@ -1,0 +1,37 @@
+.continer{ grid-template-columns: repeat(1fr *4);
+           grid-template-rows: ;
+            display: grid;
+            display: flex;
+            grid-area: ;
+}
+body{
+    /* background-image:url(./imges/your_verse_hero.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.b{text-align: center;
+size:40px;
+color:white;
+margin-top:142px ;}
+.media{
+    width: 20px;
+    height: 20px;
+}
+footer{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: ;
+}
+.box1{
+grid-area:
+}
+.box2{
+
+}
+.box3{
+
+}
+.box4{
+
+}

@@ -1,0 +1,32 @@
+.continer{
+display: grid;
+grid-template-columns: repeat(4 ,1fr);
+grid-template-rows: 400px 100px 150px;
+grid-template-areas:
+"ba ba ba ba"
+"ba ba ba ba "
+"b2 b3 b4 b5"
+;
+}
+.box1{
+grid-area: ba;
+background-image: url(./imges/your_verse_hero.jpg);
+}
+.box2{
+  grid-area: b2;
+  background-image: url(./imges/promo_iphone5s.jpg);
+}
+.box3{
+  grid-area: b3;
+background-image: url(./imges/promo_iphone5c.jpg);
+}
+.box4{
+  grid-area: b4;
+background-image: url(./imges/promo_30_years.jpg);
+
+}
+.box5{
+   grid-area: b5;
+  background-image: url(./imges/promo_supplier_responsibility.jpg);
+
+}
